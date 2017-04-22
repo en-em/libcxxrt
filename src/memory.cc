@@ -153,7 +153,7 @@ void operator delete[](void * ptr) NOEXCEPT
 
 // C++14 additional delete operators
 
-#if __cplusplus >= 201103L
+#if __cplusplus >= 201402L
 
 __attribute__((weak))
 void operator delete(void * ptr, std::size_t) NOEXCEPT
